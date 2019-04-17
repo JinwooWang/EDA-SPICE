@@ -1,0 +1,10 @@
+*Inverter
+v1 1 0 3
+v2 3 0 3
+M1 2 1 0 0 MOD1 W=2 L=1
+M2 2 1 3 3 MOD2 W=10 L=1
+.dc v1 0 3 0.05
+.MODEL MOD1 NMOS
+.MODEL MOD2 PMOS
+.end
+
